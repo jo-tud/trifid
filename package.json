@@ -25,7 +25,7 @@
     "patch-headers": "^1.0.1",
     "sparql-proxy": "^2.0.0",
     "tbbt-ld": "^1.0.0",
-    "trifid-core": "jo-tud/trfid-core-ethon",
+    "trifid-core": "jo-tud/trifid-core-ethon",
     "trifid-handler-fs": "^1.1.0",
     "trifid-handler-sparql": "^1.2.0",
     "trifid-plugin-cotton-candy": "^1.0.0",

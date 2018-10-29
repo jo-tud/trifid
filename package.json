@@ -25,7 +25,7 @@
     "patch-headers": "^1.0.1",
     "sparql-proxy": "^2.0.0",
     "tbbt-ld": "^1.0.0",
-    "trifid-core": "^1.0.0",
+    "trifid-core": "jo-tud/trfid-core-ethon",
     "trifid-handler-fs": "^1.1.0",
     "trifid-handler-sparql": "^1.2.0",
     "trifid-plugin-cotton-candy": "^1.0.0",
@@ -33,7 +33,7 @@
     "trifid-plugin-markdown": "^1.0.0",
     "trifid-plugin-renderer": "^1.0.1",
     "trifid-plugin-yasgui": "^1.0.0",
-    "trifid-renderer-simple": "^5.0.0",
+    "trifid-renderer-simple": "jo-tud/trifid-renderer-simple-ethon",
     "trifid-yasgui": "^2.0.5"
   },
   "devDependencies": {

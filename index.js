@@ -128,10 +128,13 @@ function trifid (config) {
     templateEngine(app)
 
     app.use(router)
+    
+    log.info('port in config: ' + config.listener.port)
+    log.info('port in $PORT environment variable: ' + process.env.PORT)
+    const PORT = process.env.PORT || config.listener.port
+    app.listen(config.listener.port, $PORT)
 
-    app.listen(config.listener.port, config.listener.host)
-
-    log.info('listening on hostname:port: ' + config.listener.host + ':' + config.listener.port)
+    log.info('listening on hostname:port: ' + config.listener.host + ':' + $PORT)
   })
 }
 
